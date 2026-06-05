@@ -9,11 +9,29 @@ export default defineConfig(() => {
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
+        '@cloudbase/js-sdk': path.resolve(__dirname, 'node_modules/@cloudbase/js-sdk/dist/index.esm.js'),
       },
       mainFields: ['module', 'main'],
     },
     optimizeDeps: {
-      include: ['@cloudbase/js-sdk'],
+      include: [
+        '@cloudbase/js-sdk',
+        '@cloudbase/app',
+        '@cloudbase/auth',
+        '@cloudbase/database',
+        '@cloudbase/functions',
+        '@cloudbase/storage',
+        '@cloudbase/realtime',
+        '@cloudbase/analytics',
+        '@cloudbase/model',
+        '@cloudbase/ai',
+        '@cloudbase/cloudrun',
+        '@cloudbase/mysql',
+        '@cloudbase/apis',
+        '@cloudbase/utilities',
+        '@cloudbase/adapter-interface',
+        '@cloudbase/types'
+      ],
       esbuildOptions: {
         target: 'es2020',
       },
@@ -22,10 +40,7 @@ export default defineConfig(() => {
       target: 'es2020',
       commonjsOptions: {
         transformMixedEsModules: true,
-        exclude: [],
-      },
-      rollupOptions: {
-        external: [],
+        include: [/node_modules/],
       },
     },
     server: {
