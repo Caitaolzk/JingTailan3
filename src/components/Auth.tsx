@@ -26,7 +26,7 @@ export default function Auth({
   const [successMsg, setSuccessMsg] = useState('');
   const [countdown, setCountdown] = useState(0);
   const [isCodeSent, setIsCodeSent] = useState(false);
-  const [verifyFunction, setVerifyFunction] = useState<((token: string) => Promise<any>) | null>(null);
+  const [verifyData, setVerifyData] = useState<any>(null);
 
   useEffect(() => {
     let interval: NodeJS.Timeout;
@@ -41,7 +41,7 @@ export default function Auth({
     setSuccessMsg('');
     setCode('');
     setIsCodeSent(false);
-    setVerifyFunction(null);
+    setVerifyData(null);
     if (currentScreen === 'register') {
       setEmail(''); setPassword(''); setNickname('');
     } else if (currentScreen === 'login') {
@@ -81,8 +81,8 @@ export default function Auth({
         throw new Error(error.message);
       }
 
-      // 保存验证函数
-      setVerifyFunction(() => data.verifyOtp);
+      // 保存验证数据（包含 verification_id）
+      setVerifyData(data);
       setIsCodeSent(true);
       setSuccessMsg('验证码已发送至您的邮箱，请查收');
     } catch (e: any) {
@@ -147,12 +147,12 @@ export default function Auth({
       }
 
       try {
-        if (!verifyFunction) {
+        if (!verifyData) {
           throw new Error('验证码会话已过期，请重新发送');
         }
 
-        // 验证验证码完成注册
-        const { data, error } = await verifyFunction(code);
+        // 验证验证码完成注册 - 使用 signUp 返回的 verifyOtp 方法
+        const { data, error } = await verifyData.verifyOtp({ token: code });
 
         if (error) {
           throw new Error(error.message);

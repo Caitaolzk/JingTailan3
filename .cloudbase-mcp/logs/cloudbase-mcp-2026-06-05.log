@@ -2634,3 +2634,117 @@
   "eventCode": "toolkit_tool_call",
   "deviceId": "6288f45c..."
 }
+[2026-06-05T08:57:20.399+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T08:57:20.433+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "6288f45c...",
+  "ide": "none"
+}
+[2026-06-05T08:57:20.456+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 5273544,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T08:57:20.458+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T08:57:20.482+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T08:57:20.483+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T08:57:20.483+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T08:57:20.560+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "6288f45c..."
+}
+[2026-06-05T08:57:57.967+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T08:57:58.004+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "6288f45c...",
+  "ide": "none"
+}
+[2026-06-05T08:57:58.029+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 5311116,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T08:57:58.030+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T08:57:58.054+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T08:57:58.055+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T08:57:58.055+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T08:57:58.082+00:00] [DEBUG] 开始执行工具: searchKnowledgeBase {
+  "args": {
+    "mode": "doc",
+    "docName": "auth-web"
+  }
+}
+[2026-06-05T08:57:58.085+00:00] [DEBUG] 工具执行成功: searchKnowledgeBase {
+  "duration": 3
+}
+[2026-06-05T08:57:58.086+00:00] [DEBUG] [telemetry] 工具调用 envId 获取结果 {
+  "toolName": "searchKnowledgeBase",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T08:57:58.086+00:00] [DEBUG] [telemetry] 工具调用上报参数 {
+  "toolName": "searchKnowledgeBase",
+  "eventData": {
+    "toolName": "searchKnowledgeBase",
+    "success": "true",
+    "duration": 3,
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2",
+    "inputParams": "[已包含]"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T08:57:58.120+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "6288f45c..."
+}
+[2026-06-05T08:57:58.120+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_tool_call",
+  "deviceId": "6288f45c..."
+}
