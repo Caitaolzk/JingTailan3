@@ -1,0 +1,6 @@
+{
+  "name": "景泰蓝工坊",
+  "description": "数字化呈现的掐丝珐琅之美与皇家风范，提供模拟烧制工作台、经典作品典藏社区与个人作品集展示。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
