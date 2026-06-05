@@ -1809,3 +1809,129 @@
   "eventCode": "toolkit_tool_call",
   "deviceId": "1ce5fefd..."
 }
+[2026-06-05T08:42:00.485+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T08:42:00.517+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "6288f45c...",
+  "ide": "none"
+}
+[2026-06-05T08:42:00.539+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 4353627,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T08:42:00.540+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T08:42:00.561+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T08:42:00.561+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T08:42:00.562+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T08:42:00.632+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "6288f45c..."
+}
+[2026-06-05T08:42:02.253+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T08:42:02.287+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "6288f45c...",
+  "ide": "none"
+}
+[2026-06-05T08:42:02.312+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 4355400,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T08:42:02.314+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T08:42:02.336+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T08:42:02.337+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T08:42:02.337+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T08:42:02.364+00:00] [DEBUG] 开始执行工具: uploadFiles {
+  "args": {
+    "localPath": "/tmp/workspace/a97c8650-d5af-4e3f-90e8-f8d938ffc3ae/dist",
+    "cloudPath": "a97c8650-d5af-4e3f-90e8-f8d938ffc3ae",
+    "files": [],
+    "ignore": [
+      "**/node_modules/**",
+      "**/.git/**"
+    ]
+  }
+}
+[2026-06-05T08:42:02.365+00:00] [DEBUG] loginByApiSecret
+[2026-06-05T08:42:02.366+00:00] [DEBUG] 使用 envManager 缓存的环境ID: {
+  "cachedEnvId": "jingtailan-d7gcv0lzd06bf0240"
+}
+[2026-06-05T08:42:02.417+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "6288f45c..."
+}
+[2026-06-05T08:42:03.231+00:00] [DEBUG] 使用缓存中的 envId: {
+  "envId": "jingtailan-d7gcv0lzd06bf0240"
+}
+[2026-06-05T08:42:03.233+00:00] [DEBUG] 工具执行成功: uploadFiles {
+  "duration": 869
+}
+[2026-06-05T08:42:03.234+00:00] [DEBUG] [telemetry] 工具调用 envId 获取结果 {
+  "toolName": "uploadFiles",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T08:42:03.234+00:00] [DEBUG] [telemetry] 工具调用上报参数 {
+  "toolName": "uploadFiles",
+  "eventData": {
+    "toolName": "uploadFiles",
+    "success": "true",
+    "duration": 869,
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2",
+    "inputParams": "[已包含]"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T08:42:03.256+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_tool_call",
+  "deviceId": "6288f45c..."
+}

@@ -20,9 +20,9 @@ export default function Header({
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [defaultAvatar, setDefaultAvatar] = useState<string>('');
   const defaultAvatars = [
-    '/unnamed.png',
-    '/unnamed (1).png',
-    '/unnamed.jpg'
+    './unnamed.png',
+    './unnamed (1).png',
+    './unnamed.jpg'
   ];
 
   useEffect(() => {
@@ -122,7 +122,7 @@ export default function Header({
                 />
               ) : (
                 <img
-                  src={defaultAvatar || '/unnamed.png'}
+                  src={defaultAvatar || './unnamed.png'}
                   alt="默认头像"
                   className="w-7 h-7 rounded-full object-cover transition-transform group-hover:scale-110"
                   referrerPolicy="no-referrer"
