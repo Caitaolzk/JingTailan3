@@ -193,9 +193,9 @@ export default function Auth({
   };
 
   const getHeroImage = () => {
-    if (currentScreen === 'register') return './unnamed (1).jpg';
-    if (currentScreen === 'forgot_password') return './unnamed (2).png';
-    return './unnamed (2).jpg';
+    if (currentScreen === 'register') return '/a97c8650-d5af-4e3f-90e8-f8d938ffc3ae/unnamed (1).jpg';
+    if (currentScreen === 'forgot_password') return '/a97c8650-d5af-4e3f-90e8-f8d938ffc3ae/unnamed (2).png';
+    return '/a97c8650-d5af-4e3f-90e8-f8d938ffc3ae/unnamed (2).jpg';
   };
 
   return (
