@@ -8,12 +8,14 @@ interface AuthProps {
   currentScreen: AppScreen;
   onNavigate: (screen: AppScreen) => void;
   onLoginSuccess: (email: string) => void;
+  onRegisterSuccess?: (email: string) => void;
 }
 
 export default function Auth({
   currentScreen,
   onNavigate,
   onLoginSuccess,
+  onRegisterSuccess,
 }: AuthProps) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -170,8 +172,14 @@ export default function Auth({
           followersCount: 0
         });
 
-        setSuccessMsg('注册成功！正在跳转到登录页面...');
-        setTimeout(() => onNavigate('login'), 2000);
+        setSuccessMsg('注册成功！正在前往设置密码...');
+        setTimeout(() => {
+          if (onRegisterSuccess) {
+            onRegisterSuccess(email);
+          } else {
+            onNavigate('login');
+          }
+        }, 1500);
       } catch (err: any) {
         setValidationError('注册失败：' + (err.message || '验证码错误'));
       }

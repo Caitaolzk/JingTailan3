@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { AppScreen, Artwork, UserProfile } from './types';
 import Header from './components/Header';
 import Auth from './components/Auth';
+import SetPassword from './components/SetPassword';
 import Workstation from './components/Workstation';
 import Community from './components/Community';
 import Portfolio from './components/Portfolio';
@@ -141,6 +142,8 @@ export const DEFAULT_SEED_ARTWORKS: Artwork[] = [
 export default function App() {
   // Navigation states
   const [currentScreen, setCurrentScreen] = useState<AppScreen>('login');
+  const [showSetPassword, setShowSetPassword] = useState(false);
+  const [registeredEmail, setRegisteredEmail] = useState('');
   
   // ✅ CloudBase用户认证状态（替换原本地状态）
   const [currentUser, setCurrentUser] = useState<any>(null);
@@ -287,6 +290,12 @@ return () => {};
     setCurrentScreen(screen);
   };
 
+  // 处理注册成功，显示设置密码界面
+  const handleRegisterSuccess = (email: string) => {
+    setRegisteredEmail(email);
+    setShowSetPassword(true);
+  };
+
   // Auth handler
   const handleLoginSuccess = (email: string) => {
     // 登录成功后，CloudBase的onAuthStateChanged会自动处理状态更新
@@ -406,11 +415,27 @@ return () => {};
       {/* Screen Routing Switcher */}
       <div className={`flex-grow flex flex-col w-full ${currentUser ? 'pb-16 md:pb-0' : ''}`}>
         {/* Auth Entry (Login / Register / Forgot Pass) */}
-        {!currentUser && (
+        {!currentUser && !showSetPassword && (
           <Auth 
             currentScreen={currentScreen} 
             onNavigate={handleNavigate}
             onLoginSuccess={handleLoginSuccess}
+            onRegisterSuccess={handleRegisterSuccess}
+          />
+        )}
+
+        {/* 设置密码界面 */}
+        {!currentUser && showSetPassword && (
+          <SetPassword
+            email={registeredEmail}
+            onPasswordSet={() => {
+              setShowSetPassword(false);
+              setCurrentScreen('login');
+            }}
+            onSkip={() => {
+              setShowSetPassword(false);
+              setCurrentScreen('login');
+            }}
           />
         )}
 
