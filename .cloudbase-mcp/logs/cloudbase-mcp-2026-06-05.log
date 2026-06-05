@@ -3695,3 +3695,1009 @@
   "eventCode": "toolkit_tool_call",
   "deviceId": "3481a01d..."
 }
+[2026-06-05T09:12:24.430+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:12:24.462+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:12:24.488+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6177575,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:12:24.489+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:12:24.509+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:12:24.510+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:12:24.510+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:12:24.561+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:12:26.383+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:12:26.414+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:12:26.437+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6179525,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:12:26.438+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:12:26.461+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:12:26.462+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:12:26.462+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:12:26.487+00:00] [DEBUG] 开始执行工具: writeNoSqlDatabaseStructure {
+  "args": {
+    "action": "createCollection",
+    "collectionName": "artworks"
+  }
+}
+[2026-06-05T09:12:26.488+00:00] [DEBUG] loginByApiSecret
+[2026-06-05T09:12:26.488+00:00] [DEBUG] 使用 envManager 缓存的环境ID: {
+  "cachedEnvId": "jingtailan-d7gcv0lzd06bf0240"
+}
+[2026-06-05T09:12:26.541+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:12:26.695+00:00] [DEBUG] 工具执行失败: writeNoSqlDatabaseStructure {
+  "error": "[CreateTable] Table exist. Please check your request, but if the problem cannot be solved, contact us.",
+  "duration": 208
+}
+[2026-06-05T09:12:26.695+00:00] [DEBUG] 使用缓存中的 envId: {
+  "envId": "jingtailan-d7gcv0lzd06bf0240"
+}
+[2026-06-05T09:12:26.697+00:00] [DEBUG] [telemetry] 工具调用 envId 获取结果 {
+  "toolName": "writeNoSqlDatabaseStructure",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:12:26.697+00:00] [DEBUG] [telemetry] 工具调用上报参数 {
+  "toolName": "writeNoSqlDatabaseStructure",
+  "eventData": {
+    "toolName": "writeNoSqlDatabaseStructure",
+    "success": "false",
+    "duration": 210,
+    "error": "[CreateTable] Table exist. Please check your request, but if the problem cannot be solved, contact us.",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2",
+    "inputParams": "[已包含]"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:12:26.712+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_tool_call",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:12:27.408+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "exit",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:12:40.090+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:12:40.122+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:12:40.146+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6193234,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:12:40.148+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:12:40.167+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:12:40.168+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:12:40.168+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:12:40.236+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:12:45.887+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:12:45.994+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:12:46.089+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6199177,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:12:46.092+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:12:46.183+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:12:46.184+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:12:46.184+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:12:46.276+00:00] [DEBUG] 开始执行工具: writeNoSqlDatabaseStructure {
+  "args": {
+    "action": "createCollection",
+    "collectionName": "artworks"
+  }
+}
+[2026-06-05T09:12:46.277+00:00] [DEBUG] loginByApiSecret
+[2026-06-05T09:12:46.278+00:00] [DEBUG] 使用 envManager 缓存的环境ID: {
+  "cachedEnvId": "jingtailan-d7gcv0lzd06bf0240"
+}
+[2026-06-05T09:12:46.373+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:12:46.513+00:00] [DEBUG] 工具执行失败: writeNoSqlDatabaseStructure {
+  "error": "[CreateTable] Table exist. Please check your request, but if the problem cannot be solved, contact us.",
+  "duration": 236
+}
+[2026-06-05T09:12:46.513+00:00] [DEBUG] 使用缓存中的 envId: {
+  "envId": "jingtailan-d7gcv0lzd06bf0240"
+}
+[2026-06-05T09:12:46.516+00:00] [DEBUG] [telemetry] 工具调用 envId 获取结果 {
+  "toolName": "writeNoSqlDatabaseStructure",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:12:46.516+00:00] [DEBUG] [telemetry] 工具调用上报参数 {
+  "toolName": "writeNoSqlDatabaseStructure",
+  "eventData": {
+    "toolName": "writeNoSqlDatabaseStructure",
+    "success": "false",
+    "duration": 239,
+    "error": "[CreateTable] Table exist. Please check your request, but if the problem cannot be solved, contact us.",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2",
+    "inputParams": "[已包含]"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:12:46.594+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_tool_call",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:12:47.283+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "exit",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:12:48.899+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:12:49.270+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:12:49.539+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6202627,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:12:49.541+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:12:49.565+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:12:49.565+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:12:49.566+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:12:49.740+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:12:51.648+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:12:51.768+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:12:51.644+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:12:51.768+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:12:51.913+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6205001,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:12:51.921+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:12:51.922+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6205010,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:12:51.927+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:12:52.026+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:12:52.026+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:12:52.026+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:12:52.027+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:12:52.027+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:12:52.027+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:12:52.303+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:12:52.411+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:12:55.499+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:12:55.894+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:12:56.188+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6209276,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:12:56.208+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:12:55.611+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:12:55.992+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:12:56.286+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6209373,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:12:56.300+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:12:56.633+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:12:56.652+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:12:56.655+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:12:56.655+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:12:56.634+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:12:56.635+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:12:57.002+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:12:57.006+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:13:07.924+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:13:08.121+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:13:08.300+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6221388,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:13:08.309+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:13:07.972+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:13:08.275+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:13:08.409+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6221497,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:13:08.412+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:13:08.411+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:13:08.519+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:13:08.467+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:08.467+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:13:08.569+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:08.570+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:13:08.717+00:00] [DEBUG] 开始执行工具: writeNoSqlDatabaseStructure {
+  "args": {
+    "action": "createCollection",
+    "collectionName": "artworks"
+  }
+}
+[2026-06-05T09:13:08.769+00:00] [DEBUG] loginByApiSecret
+[2026-06-05T09:13:08.770+00:00] [DEBUG] 使用 envManager 缓存的环境ID: {
+  "cachedEnvId": "jingtailan-d7gcv0lzd06bf0240"
+}
+[2026-06-05T09:13:08.989+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:13:09.180+00:00] [DEBUG] 工具执行失败: writeNoSqlDatabaseStructure {
+  "error": "[CreateTable] Table exist. Please check your request, but if the problem cannot be solved, contact us.",
+  "duration": 493
+}
+[2026-06-05T09:13:09.192+00:00] [DEBUG] 使用缓存中的 envId: {
+  "envId": "jingtailan-d7gcv0lzd06bf0240"
+}
+[2026-06-05T09:13:09.199+00:00] [DEBUG] [telemetry] 工具调用 envId 获取结果 {
+  "toolName": "writeNoSqlDatabaseStructure",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:09.199+00:00] [DEBUG] [telemetry] 工具调用上报参数 {
+  "toolName": "writeNoSqlDatabaseStructure",
+  "eventData": {
+    "toolName": "writeNoSqlDatabaseStructure",
+    "success": "false",
+    "duration": 511,
+    "error": "[CreateTable] Table exist. Please check your request, but if the problem cannot be solved, contact us.",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2",
+    "inputParams": "[已包含]"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:13:09.265+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_tool_call",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:13:10.037+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "exit",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:10.267+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:13:10.411+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:13:10.566+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6223654,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:13:10.574+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:13:10.265+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:13:10.420+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:13:10.602+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6223689,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:13:10.614+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:13:10.675+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:13:10.696+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:13:10.701+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:10.702+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:13:10.219+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:13:10.589+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:13:10.676+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:10.676+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:13:10.813+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6223900,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:13:10.814+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:13:10.870+00:00] [DEBUG] 开始执行工具: writeNoSqlDatabaseStructure {
+  "args": {
+    "action": "createCollection",
+    "collectionName": "artworks"
+  }
+}
+[2026-06-05T09:13:10.902+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:13:10.877+00:00] [DEBUG] loginByApiSecret
+[2026-06-05T09:13:10.881+00:00] [DEBUG] 使用 envManager 缓存的环境ID: {
+  "cachedEnvId": "jingtailan-d7gcv0lzd06bf0240"
+}
+[2026-06-05T09:13:10.902+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:13:10.996+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:13:10.913+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:10.914+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:13:11.208+00:00] [DEBUG] 工具执行失败: writeNoSqlDatabaseStructure {
+  "error": "[CreateTable] Table exist. Please check your request, but if the problem cannot be solved, contact us.",
+  "duration": 338
+}
+[2026-06-05T09:13:11.208+00:00] [DEBUG] 使用缓存中的 envId: {
+  "envId": "jingtailan-d7gcv0lzd06bf0240"
+}
+[2026-06-05T09:13:11.211+00:00] [DEBUG] [telemetry] 工具调用 envId 获取结果 {
+  "toolName": "writeNoSqlDatabaseStructure",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:11.211+00:00] [DEBUG] [telemetry] 工具调用上报参数 {
+  "toolName": "writeNoSqlDatabaseStructure",
+  "eventData": {
+    "toolName": "writeNoSqlDatabaseStructure",
+    "success": "false",
+    "duration": 341,
+    "error": "[CreateTable] Table exist. Please check your request, but if the problem cannot be solved, contact us.",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2",
+    "inputParams": "[已包含]"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:13:11.218+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:13:11.265+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_tool_call",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:13:11.382+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:13:11.498+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:13:11.702+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6224790,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:13:11.769+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:13:11.404+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:13:11.614+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:13:11.888+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6224974,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:13:11.897+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:13:12.380+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "exit",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:12.515+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:13:12.528+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:13:12.529+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:12.529+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:13:12.527+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:12.527+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:13:12.776+00:00] [DEBUG] 开始执行工具: writeNoSqlDatabaseStructure {
+  "args": {
+    "action": "createCollection",
+    "collectionName": "artworks"
+  }
+}
+[2026-06-05T09:13:12.777+00:00] [DEBUG] loginByApiSecret
+[2026-06-05T09:13:12.786+00:00] [DEBUG] 使用 envManager 缓存的环境ID: {
+  "cachedEnvId": "jingtailan-d7gcv0lzd06bf0240"
+}
+[2026-06-05T09:13:13.623+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "exit",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:13.752+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:13:13.894+00:00] [DEBUG] 工具执行失败: writeNoSqlDatabaseStructure {
+  "error": "[CreateTable] Table exist. Please check your request, but if the problem cannot be solved, contact us.",
+  "duration": 1119
+}
+[2026-06-05T09:13:13.921+00:00] [DEBUG] 使用缓存中的 envId: {
+  "envId": "jingtailan-d7gcv0lzd06bf0240"
+}
+[2026-06-05T09:13:13.969+00:00] [DEBUG] [telemetry] 工具调用 envId 获取结果 {
+  "toolName": "writeNoSqlDatabaseStructure",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:13.969+00:00] [DEBUG] [telemetry] 工具调用上报参数 {
+  "toolName": "writeNoSqlDatabaseStructure",
+  "eventData": {
+    "toolName": "writeNoSqlDatabaseStructure",
+    "success": "false",
+    "duration": 1193,
+    "error": "[CreateTable] Table exist. Please check your request, but if the problem cannot be solved, contact us.",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2",
+    "inputParams": "[已包含]"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:13:13.980+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_tool_call",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:13:14.682+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "exit",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:14.478+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:13:14.609+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:13:14.773+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6227861,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:13:14.774+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:13:14.815+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:13:14.816+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:14.816+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:13:14.596+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-06-05T09:13:14.879+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "3481a01d...",
+  "ide": "none"
+}
+[2026-06-05T09:13:14.981+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:13:14.982+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 6228069,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-06-05T09:13:14.983+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-06-05T09:13:15.086+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-06-05T09:13:15.089+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:15.091+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:13:15.268+00:00] [DEBUG] 开始执行工具: writeNoSqlDatabaseStructure {
+  "args": {
+    "action": "createCollection",
+    "collectionName": "artworks"
+  }
+}
+[2026-06-05T09:13:15.283+00:00] [DEBUG] loginByApiSecret
+[2026-06-05T09:13:15.284+00:00] [DEBUG] 使用 envManager 缓存的环境ID: {
+  "cachedEnvId": "jingtailan-d7gcv0lzd06bf0240"
+}
+[2026-06-05T09:13:15.410+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "3481a01d..."
+}
+[2026-06-05T09:13:15.666+00:00] [DEBUG] 工具执行失败: writeNoSqlDatabaseStructure {
+  "error": "[CreateTable] Table exist. Please check your request, but if the problem cannot be solved, contact us.",
+  "duration": 399
+}
+[2026-06-05T09:13:15.667+00:00] [DEBUG] 使用缓存中的 envId: {
+  "envId": "jingtailan-d7gcv0lzd06bf0240"
+}
+[2026-06-05T09:13:15.667+00:00] [DEBUG] [telemetry] 工具调用 envId 获取结果 {
+  "toolName": "writeNoSqlDatabaseStructure",
+  "envId": "jingtailan-d7gcv0lzd06bf0240",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-06-05T09:13:15.668+00:00] [DEBUG] [telemetry] 工具调用上报参数 {
+  "toolName": "writeNoSqlDatabaseStructure",
+  "eventData": {
+    "toolName": "writeNoSqlDatabaseStructure",
+    "success": "false",
+    "duration": 400,
+    "error": "[CreateTable] Table exist. Please check your request, but if the problem cannot be solved, contact us.",
+    "envId": "jingtailan-d7gcv0lzd06bf0240",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2",
+    "inputParams": "[已包含]"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-06-05T09:13:15.678+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_tool_call",
+  "deviceId": "3481a01d..."
+}
